@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #mpg over time
-mpg_dict = {
+mpg_dict = pd.Series({
   "04/12/18": 18.3,
   "04/14/18": 21.6,
   "04/20/18": 18.6,
@@ -33,4 +33,4 @@ mpg_dict = {
   "04/17/19": 20.9,
   "05/02/19": 22.5,
   "05/21/19": 22.1,
-}
+})
