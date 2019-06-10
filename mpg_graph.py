@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #mpg over time
-mpg_dict = pd.Series({
+camry_dict = pd.Series({
   "04/12/18": 18.3,
   "04/14/18": 21.6,
   "04/20/18": 18.6,
