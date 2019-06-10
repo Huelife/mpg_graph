@@ -37,4 +37,6 @@ mpg_dict = pd.Series({
 
 mpg_dict.plot()
 plt.title("1993 Toyota Camry MPG Over Time")
+plt.xlabel("Date")
+plt.ylabel("MPG (Miles Per Gallon)")
 plt.show()
