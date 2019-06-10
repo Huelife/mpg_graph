@@ -1,2 +1,3 @@
 # mpg_graph
-Plotting single car miles per gallon(mpg) trend over time
+Plotting a single car miles per gallon(mpg) trend over time
+-------------------------------
