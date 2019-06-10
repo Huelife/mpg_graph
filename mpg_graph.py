@@ -34,3 +34,6 @@ mpg_dict = pd.Series({
   "05/02/19": 22.5,
   "05/21/19": 22.1,
 })
+
+mpg_dict.plot()
+plt.show()
