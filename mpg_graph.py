@@ -66,8 +66,8 @@ avalon_dict = pd.Series({
   "05/26/19":21.4
 })
 
-avalon_dict.plot()
 camry_dict.plot()
+avalon_dict.plot()
 plt.title("Car MPG (Miles Per Gallon) Over Time")
 plt.xlabel("Date")
 plt.ylabel("MPG (Miles Per Gallon)")
