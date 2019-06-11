@@ -1,3 +1,3 @@
 # mpg_graph
-Graphing car mpg(miles per gallon) using pandas and matplotlib.pyplot
+Graphing car miles per gallon using pandas and matplotlib.pyplot
 -------------------------------
