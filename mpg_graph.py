@@ -1,9 +1,9 @@
-#mpg_graph.py: Graphing single car mpg trend over time
+#mpg_graph.py: Graphing mpg trend of two cars over time
 import pandas as pd
 
 import matplotlib.pyplot as plt
 
-#mpg over time for camry and avalon
+#mpg over time data for camry and avalon
 camry_dict = pd.Series({
   "04/12/18":18.3,
   "04/14/18":21.6,
