@@ -69,6 +69,7 @@ avalon_dict = pd.Series({
 camry_dict.plot()
 avalon_dict.plot()
 plt.title("Car MPG (Miles Per Gallon) Over Time")
+plt.legend(["1993 Toyota Camry","2002 Toyota Avalon"])
 plt.xlabel("Date")
 plt.ylabel("MPG (Miles Per Gallon)")
 plt.show()
