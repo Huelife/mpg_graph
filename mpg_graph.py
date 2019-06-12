@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #mpg over time data for camry and avalon
-camry_dict = pd.Series({
+camry_df = pd.Series({
   "04/12/18":18.3,
   "04/14/18":21.6,
   "04/20/18":18.6,
@@ -33,10 +33,10 @@ camry_dict = pd.Series({
   "04/17/19":20.9,
   "05/02/19":22.5,
   "05/21/19":22.1,
-  "06/12/19",22.9,
+  "06/12/19":22.9,
 })
 
-avalon_dict = pd.Series({
+avalon_df = pd.Series({
   "04/12/18":None,
   "05/17/18":None,
   "06/01/18":None,
@@ -68,8 +68,8 @@ avalon_dict = pd.Series({
   "06/12/19":None,
 })
 
-camry_dict.plot()
-avalon_dict.plot()
+camry_df.plot()
+avalon_df.plot()
 plt.title("Car MPG (Miles Per Gallon) Over Time")
 plt.legend(["1993 Toyota Camry","2002 Toyota Avalon"])
 plt.xlabel("Date")
