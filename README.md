@@ -7,3 +7,5 @@ Graphing car miles per gallon using pandas and matplotlib.pyplot
 4) Download all files.
 5) Run 'mpg_graph.py'.
 6) Afterwards, the program will run automatically.
+
+![figure_01.png](https://github.com/Huelife/mpg_graph/blob/master/figure_01.png)
